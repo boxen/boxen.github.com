@@ -8,9 +8,12 @@ html {
 
 body {
   margin: 0;
-  background-image: -webkit-radial-gradient(top, circle cover, rgba(123, 89, 61, 0.08), rgba(116, 81, 50, 0.6) 100%);
-  height: 110%;
+  height: 100%;
   font-family: 'ProximaNova-Regular'; }
+
+#wrapper {
+  background-image: -webkit-radial-gradient(top, circle cover, rgba(123, 89, 61, 0.38), rgba(116, 81, 50, 0.6) 100%);
+  padding: 0 0 40px 0; }
 
 .container {
   width: 760px;
@@ -21,8 +24,8 @@ h1 {
   font-family: 'MenschBold';
   font-weight: bold;
   font-style: normal;
-  font-size: 76px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6); }
+  font-size: 78px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57); }
 
 /* Top and Header Content */
 #top {
@@ -33,7 +36,7 @@ h1 {
   #top p {
     padding: 0 0 0 30px;
     margin: 0;
-    line-height: 1.3;
+    line-height: 1.35;
     float: left;
     width: 320px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29); }
@@ -59,9 +62,9 @@ h1 {
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-size: 76px;
+    font-size: 80px;
     color: rgba(116, 81, 50, 0.4);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.59); }
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); }
 
 /* Stacks */
 .label-inner {
@@ -96,10 +99,24 @@ h1 {
   box-shadow: inset 0 2px 1px white, 0 1px 0 rgba(0, 0, 0, 0.3), 0 1px 5px rgba(0, 0, 0, 0.4); }
 
 /* Bucket Content */
+.bucket-title {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 1px 1px #FFF; }
+  .bucket-title span {
+    letter-spacing: 1px; }
+
 .bucket-content {
-  padding: 20px 0 20px 40px;
+  padding: 20px 0 20px 50px;
   clear: both;
   overflow: hidden; }
+  .bucket-content img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #EEE;
+    display: block; }
   .bucket-content ol {
     margin: 0;
     padding: 0;
@@ -109,9 +126,16 @@ h1 {
     display: inline-block;
     width: 300px;
     float: left;
-    padding: 0 40px 20px 0; }
+    margin: 0 auto;
+    padding: 0 50px 20px 5px; }
   .bucket-content ol li span {
     color: #999; }
+
+/* Footer */
+#footer {
+  background-color: #111;
+  height: 200px;
+  margin: 0; }
 
 /* Float class selectors and clearfix */
 .right {
