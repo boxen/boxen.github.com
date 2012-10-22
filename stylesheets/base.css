@@ -29,12 +29,12 @@ h1 {
 
 /* Top and Header Content */
 #top {
-  margin: 40px auto; }
+  margin: 40px auto 45px auto; }
   #top h1 {
     margin: 0;
     float: left; }
   #top p {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 32px;
     margin: 0;
     line-height: 1.35;
     float: left;
@@ -50,20 +50,12 @@ h1 {
   font-family: 'MenschBold';
   font-size: 42px;
   text-align: center; }
-  .stamp h2 {
-    display: inline-block;
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
-    margin-left: -8px;
-    margin-top: -15px;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6); }
   .stamp .ss-icon {
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-size: 80px;
-    color: rgba(116, 81, 50, 0.4);
+    font-size: 76px;
+    color: rgba(116, 81, 50, 0.42);
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); }
 
 /* Stacks */
@@ -134,7 +126,7 @@ h1 {
 /* Footer */
 #footer {
   background-color: #111;
-  height: 200px;
+  height: 180px;
   margin: 0; }
 
 /* Float class selectors and clearfix */
