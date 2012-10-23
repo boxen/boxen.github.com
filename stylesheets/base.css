@@ -9,7 +9,8 @@ html {
 body {
   margin: 0;
   height: 100%;
-  font-family: 'ProximaNova-Regular'; }
+  font-family: 'ProximaNova-Regular';
+  -webkit-font-smoothing: antialiased; }
 
 #wrapper {
   background-image: -webkit-radial-gradient(top, circle cover, rgba(123, 89, 61, 0.38), rgba(116, 81, 50, 0.6) 100%);
@@ -27,6 +28,18 @@ h1 {
   font-size: 78px;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57); }
 
+h2, h3, h4 {
+  font-family: 'ProximaNova-Bold';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1; }
+
+h3 {
+  font-size: 16px; }
+
+p {
+  font-size: 16px; }
+
 /* Top and Header Content */
 #top {
   margin: 40px auto 45px auto; }
@@ -38,24 +51,20 @@ h1 {
     margin: 0;
     line-height: 1.35;
     float: left;
-    width: 320px;
+    width: 360px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29); }
   #top a {
     font-family: 'ProximaNova-Bold'; }
 
 .stamp {
   float: right;
-  height: 95px;
-  margin-top: -15px;
-  font-family: 'MenschBold';
-  font-size: 42px;
-  text-align: center; }
+  margin-top: -15px; }
   .stamp .ss-icon {
     display: inline-block;
     margin: 0;
     padding: 0;
     font-size: 76px;
-    color: rgba(116, 81, 50, 0.42);
+    color: rgba(102, 71, 44, 0.42);
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4); }
 
 /* Stacks */
@@ -120,14 +129,34 @@ h1 {
     float: left;
     margin: 0 auto;
     padding: 0 50px 20px 5px; }
+  .bucket-content ol li p {
+    font-size: 16px; }
   .bucket-content ol li span {
+    font-size: 14px;
     color: #999; }
+
+/* Bottom */
+#bottom {
+  clear: both;
+  overflow: hidden;
+  margin: 60px 0 0 0; }
+  #bottom h3 {
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18); }
+  #bottom p {
+    font-size: 16px; }
+  #bottom img {
+    width: 310px; }
+  #bottom p {
+    width: 410px; }
 
 /* Footer */
 #footer {
-  background-color: #111;
+  background-color: #97816e;
   height: 180px;
-  margin: 0; }
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.21);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12); }
 
 /* Float class selectors and clearfix */
 .right {
