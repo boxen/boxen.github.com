@@ -18,6 +18,7 @@ h1 {
   font-style: normal;
   font-size: 94px;
   line-height: 1.2;
+  color: rgba(0, 0, 0, 0.81);
   -webkit-mask-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.59));
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.32); }
 
@@ -33,12 +34,12 @@ h3 {
 p {
   font-family: 'ProximaNova-Regular';
   font-size: 15px;
-  color: #222;
+  color: #333;
   line-height: 1.5;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.12); }
 
 a {
-  color: #111;
+  color: #2C2C2C;
   text-decoration: none; }
 
 a:visited {
@@ -81,7 +82,8 @@ a:visited {
     font-size: 76px;
     margin: 0 0 0 0;
     -webkit-mask-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.59));
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.32); }
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.32);
+    color: rgba(0, 0, 0, 0.81); }
 
 /* Stacks */
 .label-inner {
@@ -113,6 +115,7 @@ a:visited {
   font-size: 33px;
   text-transform: uppercase;
   text-align: center;
+  color: #333;
   text-shadow: 0 1px 1px #FFF;
   padding: 15px 0 0 0; }
   .bucket-title span {
@@ -161,10 +164,11 @@ a:visited {
     font-size: 36px;
     font-style: normal;
     font-weight: normal;
-    margin: 20px 0 15px 0;
+    margin: 25px 0 0 0;
     line-height: 1.5;
     -webkit-mask-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.3));
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.12); }
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.12);
+    color: rgba(0, 0, 0, 0.85); }
   #bottom img {
     width: 300px; }
   #bottom p {
