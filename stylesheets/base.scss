@@ -241,9 +241,9 @@ a:visited {
   }
 
   footer {
-    width: 760px;
+
     margin: 0 auto;
-    padding: 0 0 0 162px;
+    padding: 0 0 0 180px;
     background-image: url('../images/outlinetocat_@2X.png');
     background-size: 132px 132px;
     background-position: center left;
@@ -272,21 +272,24 @@ a:visited {
   }
 
   .upper ul {
-    width: 150px;
-    margin: 0 12px;
+    margin: 0 24px 0 0;
     padding: 0;
     position: relative;
-    width: 150px;
+    width: 127px;
     list-style: none;
     float: left;
     position: relative;
+  }
+  
+  ul.footer_nav.none {
+    margin: 0;
   }
 
   .lower {
     clear: both;
     overflow: hidden;
     position: relative;
-    margin: 15px 0 0 11px;
+    margin: 15px 0 0 0;
   }
 
   .lower ul {
