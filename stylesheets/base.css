@@ -9,21 +9,21 @@ html {
 body {
   margin: 0;
   height: 100%;
-  font-family: 'ProximaNova-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'ProximaNovaRegular', 'Helvetica Neue', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
   font-family: 'MenschBold';
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 94px;
-  line-height: 1.2;
+  line-height: 1;
   color: rgba(0, 0, 0, 0.81);
   -webkit-mask-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.59));
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.32); }
 
 h2, h3, h4 {
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNovaBold';
   font-style: normal;
   font-weight: normal;
   line-height: 1; }
@@ -32,7 +32,7 @@ h3 {
   font-size: 16px; }
 
 p {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNovaRegular';
   font-size: 15px;
   color: #333;
   line-height: 1.5;
@@ -73,7 +73,7 @@ a:visited {
     border-bottom: thin solid rgba(116, 81, 50, 0.2);
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
   #top a {
-    font-family: 'ProximaNova-Bold'; }
+    font-family: 'ProximaNovaBold'; }
 
 .stamp {
   float: right; }
@@ -111,7 +111,7 @@ a:visited {
 
 /* Bucket Content */
 .bucket-title {
-  font-family: 'ProximaNova-SemiBold';
+  font-family: 'ProximaNovaSemi';
   font-size: 33px;
   text-transform: uppercase;
   text-align: center;
@@ -151,7 +151,7 @@ a:visited {
     color: #999;
     line-height: 1.78; }
   .bucket-content ol li strong {
-    font-family: 'ProximaNova-Bold';
+    font-family: 'ProximaNovaBold';
     font-size: 14px; }
 
 /* Bottom */
@@ -179,6 +179,8 @@ a:visited {
   margin: 0;
   background-color: rgba(95, 66, 41, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.13), 0 -1px 2px rgba(255, 255, 255, 0.12); }
+  #footer .container {
+    padding: 40px 0 30px 0; }
   #footer footer {
     margin: 0 auto;
     padding: 0 0 0 180px;
@@ -190,17 +192,19 @@ a:visited {
     min-height: 160px;
     overflow: hidden; }
   #footer h4 {
-    font-family: 'ProximaNova-Bold';
+    font-family: 'ProximaNovaBold';
     font-size: 14px;
     color: #2C2C2C;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
     padding: 0 0 5px 0;
     margin: 10px 0 5px 0;
     border-bottom: thin solid rgba(116, 81, 50, 0.2);
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
   #footer a {
     color: #2C2C2C;
-    font-family: 'ProximaNova-Regular';
-    font-size: 13px; }
+    font-family: 'ProximaNovaRegular';
+    font-size: 13px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
   #footer .upper ul {
     margin: 0 24px 0 0;
     padding: 0;

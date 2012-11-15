@@ -21,17 +21,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "SSSocial";
-  src: url('../fonts/ss-social-regular.eot');
-  src: url('../fonts/ss-social-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ss-social-regular.woff') format('woff'),
-       url('../fonts/ss-social-regular.ttf') format('truetype'),
-       url('../fonts/ss-social-regular.svg#SSSocialRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .ss-icon, .ss-icon.ss-social, .ss-icon.ss-social-circle,
 [class^="ss-"]:before, [class*=" ss-"]:before, 
 [class^="ss-"][class*=" ss-social"]:before, [class*=" ss-"][class*=" ss-social"]:before,
