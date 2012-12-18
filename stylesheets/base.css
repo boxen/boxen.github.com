@@ -33,7 +33,7 @@ p {
   font-family: 'ProximaNovaRegular';
   font-size: 14px;
   color: #333;
-  line-height: 1.75;
+  line-height: 1.65;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.12); }
 
 a {
@@ -72,11 +72,16 @@ a:visited {
     #top h1 a:hover {
       color: #2A2A2F; }
   #top p {
-    line-height: 1.75;
-    padding: 0 0 0 0;
-    margin: 20px 0 0 50px;
+    padding: 11px 0 0 0;
+    margin: 0 0 0 42px;
     float: left;
-    width: 419px; }
+    width: 450px; }
+    #top p span {
+      font-family: 'ProximaNovaBold';
+      text-transform: uppercase;
+      font-size: 17px;
+      display: block;
+      margin-bottom: 6px; }
   #top a {
     font-family: 'ProximaNovaBold'; }
 
