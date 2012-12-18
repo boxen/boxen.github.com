@@ -156,7 +156,7 @@ a:visited {
   #bottom .screenshot {
     clear: both;
     overflow: hidden;
-    width: 420px;
+    width: 400px;
     height: 240px;
     border-radius: 12px;
     background-image: url("../images/screensaver.png");
@@ -193,10 +193,10 @@ a:visited {
     width: 140px;
     height: 140px;
     margin: 10px 0 0 14px;
-    background-image: url("../images/blacktocat.png");
+    background-image: url("../images/outlinetocat@2X.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: auto 140px; }
+    background-size: 140px; }
   #footer .upper {
     min-height: 160px;
     overflow: hidden; }
