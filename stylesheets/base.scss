@@ -15,22 +15,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
 h1 {
   font-family: 'MenschBold';
   font-weight: normal;
   font-style: normal;
-  font-size: 94px;
-  line-height: 1;
-  color: rgba(0,0,0,.81);
-  -webkit-mask-image: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.59));
-  text-shadow: 0 1px 2px rgba(255,255,255,.32);
-}
+  font-size: 108px;
+  color: #2A2A2F;
+  text-shadow: 0 1px 1px rgba(255,255,255,.1);
+} 
 
 h2, h3, h4 {
   font-family: 'ProximaNovaBold';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  color: #2A2A2F;
 }
 
 h3 {
@@ -39,9 +39,9 @@ h3 {
 
 p {
   font-family: 'ProximaNovaRegular';
-  font-size: 15px;
+  font-size: 14px;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.75;
   text-shadow: 0 1px 1px rgba(255,255,255,.12);
 }
 
@@ -64,15 +64,19 @@ a:visited {
 }
 
 .container {
-  width: 760px;
+  width: 960px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /* Top and Header Content */
 
 #top {
-  margin: 40px auto 30px auto;
+  padding: 60px 0 30px 0;
+  border-bottom: 2px solid rgba(116,81,50,.1);
+  box-shadow:  0 1px 2px rgba(255,255,255,.11);
+  margin: 0 0 1px 0;
 
   h1 {
     margin: 0;
@@ -80,13 +84,11 @@ a:visited {
   }
 
   p {
-    /*border-left: .23em solid darken(rgba(116,81,50,.2), 1%);*/
-    padding: 0 0 9px 0;
-    margin: 5px 0 0 35px;
+    line-height: 1.75;
+    padding: 0 0 0 0;
+    margin: 15px 0 0 50px;
     float: left;
-    width: 385px;
-    border-bottom: thin solid rgba(116,81,50,.2);
-    box-shadow: 0 1px 1px rgba(255,255,255,.1);
+    width: 419px;
   }
 
   a {
@@ -94,111 +96,75 @@ a:visited {
   }
 }
 
-.stamp {
-  float: right;
+/* Hero Image */
 
-  .ss-icon {
-    display: inline-block;
-    font-size: 76px;
-    margin: 0 0 0 0;
-    -webkit-mask-image: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.59));
-    text-shadow: 0 1px 2px rgba(255,255,255,.32);
-    color: rgba(0,0,0,.81);
-  }
-
-}
-
-/* Stacks */
-
-.label-inner {
-  background-color: white;
-  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(254,254,254,1) 100%);
-  margin: 0 auto;
-  z-index: 2;
-  position: relative;
-  min-height: 500px;
-  box-shadow: inset 0 2px 1px rgba(255,255,255,1),
-                    0 1px 0 rgba(0,0,0,.3),
-                    0 1px 5px rgba(0,0,0,.4);
-}
-
-.label-outer {
-  background-color: white;
-  z-index: 1;
-  position:relative;
-  -webkit-transform: rotate(-1.8deg);
-  -moz-transform: rotate(-1.8deg);
-  -ms-transform: rotate(-1.8deg);
-  box-shadow: 0 1px 0 rgba(0,0,0,.3), 
-              0 1px 5px rgba(0,0,0,.3);
-}
-
-.label-inner {
-  -webkit-transform: rotate(1.8deg);
-  -moz-transform: rotate(1.8deg);
-  -ms-transform: rotate(1.8deg);
-}
-
-/* Bucket Content */
-
-.bucket-title {
-  font-family: 'ProximaNovaSemi';
-  font-size: 33px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #333;
-  text-shadow: 0 1px 1px #FFF;
-  padding: 15px 0 0 0;
-
-  span {
-    font-size: 32 px;
-    letter-spacing: 1px;
-  }
-}
-
-.bucket-content {
-  padding: 25px 0 25px 50px;
+#hero {
+  background-color: transparent;
+  background-image: url('../images/hero.png');
+  background-repeat: no-repeat;
+  background-size: auto 619px;
+  background-position: center center;
+  height: 700px;
+  width: 100%;
+  margin: 0 -10px;
   clear: both;
   overflow: hidden;
+  border-bottom: 2px solid rgba(116,81,50,.12);
+  box-shadow: 0 1px 2px rgba(255,255,255,.11);
+  margin: 0 0 1px 0;
 
-  img {
-    width: 100%;
-    height: 200px;
-    border-color: transparent;
-    box-shadow: none;
+
+  li {
+    color: lighten(#2A2A2F, 5%);
+    position: absolute;
+    width: 170px;
+    padding: 10px 12px 14px 12px;
+    display: block;
+    background-color: rgba(255,255,255,.42);
+    box-shadow: inset 0 1px 2px rgba(255,255,255,.5), 
+                inset 0 0 5px rgba(255,255,255,.3), 
+                      0 1px 1px rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.21);
+    text-shadow: 0 1px 0 rgba(255,255,255,.19);
+  }
+
+  strong {
+    font-family: 'ProximaNovaBold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin: 4px 0 10px 0;
+    text-shadow: 0 1px 1px rgba(255,255,255,.2);
     display: block;
   }
 
-  ol {
-    margin: 0;
+  li p {
+    margin: 10px 0 0 0;
     padding: 0;
-    list-style-type: none;
-    display: inline-block;
-  }
-
-  ol li {
-    display: inline-block;
-    width: 300px;
-    float: left;
-    margin: 0 auto;
-    padding: 0 50px 20px 5px;
-  }
-
-  ol li p {
-    font-size: 14px;
-    line-height: 1.19;
-  }
-
-  ol li span {
     font-size: 13px;
-    color: #999;
-    line-height: 1.78;
+    line-height: 1.52;
   }
 
-  ol li strong {
-    font-family: 'ProximaNovaBold';
-    font-size: 14px;
-   }
+  .helmet {
+    margin: 2px 0 0 688px;
+    width: 190px;
+  }
+
+  .vest {
+    margin: 60px 0 0 45px;
+  }
+
+  .jetpacks {
+    margin: 300px 0 0 -25px;
+    width: 160px;
+  }
+
+  .flamethrower {
+    margin: 400px 0 0 757px;
+    width: 142px;
+  }
 }
 
 /* Bottom */
@@ -206,26 +172,46 @@ a:visited {
 #bottom {
   clear: both;
   overflow: hidden;
-  margin: 60px 0 0 0;
+  margin: 0 0 0 0;
+  padding: 14px 0 0 0;
+  width: 100%;
+
 
   h3 {
-    font-family: 'MenschBold';
-    font-size: 36px;
+    font-family: 'ProximaNovaBold';
+    font-size: 17px;
     font-style: normal;
     font-weight: normal;
-    margin: 25px 0 0 0;
-    line-height: 1.5;
-    -webkit-mask-image: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.3));
-    text-shadow: 0 1px 1px rgba(255,255,255,.12);
-    color: rgba(0,0,0,.85);
+    margin: 25px 0 10px 0;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #2A2A2F;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1);
+  } 
+
+  .screenshot {
+    width: 370px;
+    height: 240px;
+    border-radius: 12px;
+    background-image: url('../images/screensaver.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 700px auto;
+    background-color: rgba(255,255,255,.4);
+    margin: 0 3px 2px 3px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.9), 0 1px 1px rgba(255,255,255,.6);
   }
 
-  img {
-    width: 300px;
+  .terminal {
+    background-image: url('../images/terminal.png'); 
+    background-position: center center;
+    background-size: 600px auto;
   }
 
   p {
-    width: 420px;
+    font-size: 14px;
+    width: 460px;
+    margin: 0 0 25px 0;
   }
 }
 
@@ -244,10 +230,7 @@ a:visited {
   footer {
     margin: 0 auto;
     padding: 0 0 0 180px;
-    background-image: url('../images/outlinetocat_@2X.png');
-    background-size: 132px 132px;
-    background-position: center left;
-    background-repeat: no-repeat;
+
   }
 
   .upper {
@@ -262,8 +245,6 @@ a:visited {
     text-shadow: 0 1px 1px rgba(255,255,255,.1);
     padding: 0 0 5px 0;
     margin: 10px 0 5px 0;
-    border-bottom: thin solid rgba(116,81,50,.2);
-    box-shadow: 0 1px 1px rgba(255,255,255,.1);
   }
 
   a {
@@ -277,7 +258,7 @@ a:visited {
     margin: 0 24px 0 0;
     padding: 0;
     position: relative;
-    width: 127px;
+    width: 180px;
     list-style: none;
     float: left;
     position: relative;
