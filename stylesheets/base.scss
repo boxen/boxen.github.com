@@ -106,17 +106,6 @@ a:hover {
   a {
     font-family: 'ProximaNovaBold';
   }
-
-  .invertocat {
-    display: block;
-    float: right;
-    width: 100px;
-    height: 100px;
-    background-image: url('../images/invertocat.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 88px auto;
-  }
 }
 
 /* Hero Image */
@@ -204,7 +193,7 @@ a:hover {
     font-size: 17px;
     font-style: normal;
     font-weight: normal;
-    margin: 25px 0 10px 0;
+    margin: 25px 0 12px 0;
     line-height: 1.4;
     text-transform: uppercase;
     color: #2A2A2F;
@@ -258,8 +247,20 @@ a:hover {
 
   footer {
     margin: 0 auto;
-    padding: 0 0 0 180px;
+    padding: 0 0 0 220px;
 
+  }
+
+  .invertocat {
+    display: block;
+    float: left;
+    width: 115px;
+    height: 115px;
+    margin: 20px 0 0 20px;
+    background-image: url('../images/invertocat.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 115px auto;
   }
 
   .upper {
@@ -284,10 +285,10 @@ a:hover {
   }
 
   .upper ul {
-    margin: 0 24px 0 0;
+    margin: 0 0 0 0;
     padding: 0;
     position: relative;
-    width: 180px;
+    width: 185px;
     list-style: none;
     float: left;
     position: relative;
