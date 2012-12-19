@@ -2,32 +2,26 @@ html, body {
   height: 100%; }
 
 html {
-  background-color: transparent;
   background-image: url("../images/cardboard_@2X.png");
   background-size: 600px 600px; }
 
 body {
   margin: 0;
   height: 100%;
-  font-family: 'ProximaNovaRegular', 'Helvetica Neue', Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased; }
+  font-family: 'ProximaNovaRegular', 'Helvetica Neue', Helvetica, sans-serif; }
 
 h1 {
   font-weight: normal;
   font-style: normal;
-  font-size: 108px;
   color: #2A2A2F;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: 'ProximaNovaBold';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
   color: #2A2A2F; }
-
-h3 {
-  font-size: 16px; }
 
 p {
   font-family: 'ProximaNovaRegular';
@@ -37,8 +31,10 @@ p {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.12); }
 
 a {
+  font-family: 'ProximaNovaBold';
   color: #2C2C2C;
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 a:visited {
   text-decoration: none; }
@@ -64,12 +60,14 @@ a:visited {
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.11);
   margin: 0 0 20px 0; }
   #top h1 {
+    font-size: 108px;
     margin: 0;
     float: left; }
     #top h1 a {
       font-family: 'MenschBold';
       color: #2A2A2F; }
     #top h1 a:hover {
+      text-decoration: none;
       color: #2A2A2F; }
   #top p {
     padding: 11px 0 0 0;
@@ -82,8 +80,6 @@ a:visited {
       font-size: 17px;
       display: block;
       margin-bottom: 6px; }
-  #top a {
-    font-family: 'ProximaNovaBold'; }
 
 /* Hero Image */
 #hero {
@@ -133,7 +129,7 @@ a:visited {
     margin: 300px 0 0 -25px;
     width: 160px; }
   #hero .flamethrower {
-    margin: 400px 0 0 757px;
+    margin: 400px 0 0 758px;
     width: 142px; }
 
 /* Bottom */
@@ -148,7 +144,7 @@ a:visited {
     font-size: 17px;
     font-style: normal;
     font-weight: normal;
-    margin: 25px 0 14px 0;
+    margin: 25px 0 13px 0;
     line-height: 1.4;
     text-transform: uppercase;
     color: #2A2A2F;
@@ -172,7 +168,7 @@ a:visited {
     background-size: 480px auto; }
   #bottom p {
     font-size: 14px;
-    width: 460px;
+    width: 490px;
     margin: 0 0 35px 0; }
   #bottom .right {
     margin-top: 22px; }
