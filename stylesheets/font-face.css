@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'MenschBold';
+  src: url('../fonts/mensch-bold-webfont.ttf'),
+       url('../fonts/mensch-bold-webfont.eot'),
+       url('../fonts/mensch-bold-webfont.woff'),
+       url('../fonts/mensch-bold-webfont.svg'); 
+}
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/proximanova-regular-webfont.ttf'),
+       url('../fonts/proximanova-regular-webfont.eot'),
+       url('../fonts/proximanova-regular-webfont.woff'),
+       url('../fonts/proximanova-regular-webfont.svg'); 
+}
+
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url('../fonts/proximanova-semibold-webfont.ttf'),
+       url('../fonts/proximanova-semibold-webfont.eot'),
+       url('../fonts/proximanova-semibold-webfont.woff'),
+       url('../fonts/proximanova-semibold-webfont.svg'); 
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/proximanova-bold-webfont.ttf'),
+       url('../fonts/proximanova-bold-webfont.eot'),
+       url('../fonts/proximanova-bold-webfont.woff'),
+       url('../fonts/proximanova-bold-webfont.svg'); 
+}
