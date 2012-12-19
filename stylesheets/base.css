@@ -148,7 +148,7 @@ a:visited {
     font-size: 17px;
     font-style: normal;
     font-weight: normal;
-    margin: 25px 0 12px 0;
+    margin: 25px 0 14px 0;
     line-height: 1.4;
     text-transform: uppercase;
     color: #2A2A2F;
@@ -193,10 +193,11 @@ a:visited {
     width: 140px;
     height: 140px;
     margin: 10px 0 0 14px;
-    background-image: url("../images/outlinetocat@2X.png");
+    background-image: url("../images/outlinetocat_@2X.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 140px; }
+    background-size: 140px;
+    opacity: .29; }
   #footer .upper {
     min-height: 160px;
     overflow: hidden; }
@@ -206,17 +207,20 @@ a:visited {
     color: #2C2C2C;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
     padding: 0 0 5px 0;
-    margin: 10px 0 5px 0; }
+    margin: 10px 0 7px 0;
+    border-bottom: 1px solid #000;
+    border-bottom: 2px solid rgba(116, 81, 50, 0.18);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.09); }
   #footer a {
     color: #2C2C2C;
     font-family: 'ProximaNovaRegular';
     font-size: 13px;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
   #footer .upper ul {
-    margin: 0 0 0 0;
+    margin: 0 30px 0 0;
     padding: 0;
     position: relative;
-    width: 185px;
+    width: 160px;
     list-style: none;
     float: left;
     position: relative; }
