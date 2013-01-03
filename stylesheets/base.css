@@ -84,7 +84,7 @@ a:visited {
 a.download {
   display: block;
   float: right;
-  margin: 11px 0 0 0;
+  margin: 10px 0 0 0;
   font-family: 'MenschBold';
   color: #2A2A2F;
   line-height: 1.05;
@@ -206,11 +206,10 @@ a.download {
     width: 140px;
     height: 140px;
     margin: 10px 0 0 14px;
-    background-image: url("../images/outlinetocat_@2X.png");
+    background-image: url("../images/blacktocat.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 140px;
-    opacity: .29; }
+    background-size: 140px; }
   #footer .upper {
     min-height: 160px;
     overflow: hidden; }
