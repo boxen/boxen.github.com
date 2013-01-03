@@ -90,9 +90,9 @@ a:visited {
 
   p {
     padding: 11px 0 0 0;
-    margin: 0 0 0 42px;
+    margin: 0 0 0 38px;
     float: left;
-    width: 450px;
+    width: 440px;
 
     span {
       font-family: 'ProximaNovaBold';
@@ -101,6 +101,25 @@ a:visited {
       display: block;
       margin-bottom: 6px;
     }
+  }
+}
+
+a.download {
+  display: block;
+  float: right;
+  margin: 10px 0 0 0;
+  font-family: 'MenschBold';
+   color: #2A2A2F;
+  line-height: 1.07;
+  font-size: 48px;
+  text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,.1);
+
+  span {
+    margin: 3px 10px;
+    font-size: 32px;
+    letter-spacing: 0;
+    text-align: center;
   }
 }
 
