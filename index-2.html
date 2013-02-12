@@ -16,15 +16,15 @@
         Automate the pain out of your development environment. Boxen installs your dependencies so you can focus on getting things done.</p>
         <a href="https://github.com/boxen" class="download">Download<br><span>* on GitHub *</span></a>
       </div>
-    </div> 
+    </div>
 
     <div class="container">
       <div id="hero">
         <ul>
           <li class="helmet"><strong>Keep your head.</strong><p>Worried you might miss out on a crucial update? </p><p>Don’t! Each time you run your `boxen`, it automagically&trade; updates to the latest release.</p></li>
           <li class="vest"><strong>Protect Yourself, <i>from yourself</i>.</strong><p>Manage the dependencies of all of your apps in one place.</p></li>
-          <li class="jetpacks"><strong>A future, <i>with jetpacks</i>.</strong><p>Need a few different databases and languages to run your apps?</p><p>We’ve got you covered. Just include them and you’re good to go.</p></li>
-          <li class="flamethrower"><strong>Just Add Fire.</strong><p>Fully configurable, insta-dev environments for you and yours.</p></li>
+          <li class="jetpacks"><strong>A future, <i>with jetpacks</i>.</strong><p>Need a few different databases and languages to run your apps?</p><p>We’ve got you covered. They're just a few lines of code away.</p></li>
+          <li class="flamethrower"><strong>Just Add Fire.</strong><p>Fully configurable, insta-dev environments for you and yours. You can even install Minecraft with it.</p></li>
         </ul>
       </div>
     </div>
@@ -32,14 +32,26 @@
     <div id="bottom" class="clearfix">
       <div class="container">
         <div class="left">
-          <h3>But really, what <i>is</i> Boxen?</h3>
-          <p>Boxen was extracted from an internal tool we built at GitHub to manage all the dependencies for our applications. With Boxen, any of our employees can run any of our apps with just a one-line command. We don't have to worry about installing dependencies, configuring databases, or running processes; it all just works.</p>
+          <h3>But really, what <i>is</i> this &quot;Boxen&quot; thing?</h3>
+          <p>Boxen is a framework and standard library for literally automating your very existence. Or your laptop. They're basically the same thing. We originally build it as this thing called &quot;The Setup&quot; for our folks here at GitHub. Then we thought to ourselves &quot;Holy smokes, Batman &mdash; Other people would love to have this!&quot; Okay, fine. It wasn't our idea. You heard about what we were doing and said &quot;Sign me up!&quot; Why? Because you hate the idea of artisanal development setups as much as we do.</p>
 
-          <h3>What can Boxen do?</h3>
-          <p>Boxen handles all the nitty-gritty so you don't have to. You'll define the dependencies for your app, and Boxen leverages <a href="https://github.com/puppetlabs/puppet">Puppet</a> to install and manage those dependencies for your team. Once you've created a template for your organization, everyone can pitch in and collaborate to improve the environment for everyone else.</p>
+          <h3>What does it really do though?</h3>
+          <p>Boxen automates anything and everything you tell it. Too broad? Okay. For anyone using Boxen to automate their personal setup or their organization's setup, you can use the tooling we've created to offer a one-line script to your folks they then run and in about 15 minutes they get everything they need. Sounds a little too good to be true? Nah. It's just a little sprinkling of <strong>configuration management</strong> (with Puppet) and some Ruby scripts.</p>
 
-          <h3>How do I get my team on Boxen?</h3>
-          <p>Using the number of Puppet modules we’ve already created under the @boxen organization, you can simply add these modules to the Puppetfile in your fork, update your manifests, and run it. For specific user configuration, we also provide documentation on how to create personal manifests and project manifests. Combining all of these allows for a sane way of managing your whole laptop, even if you want to configure and install certain things that your whole organization doesn't need to.</p>
+          <h3>What sort of stuff does it come with?</h3>
+          <p>Our &quot;default stack&quot; comes pre-assembled for you in the <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a> repo. That comes with: Homebrew, Git, Hub, DNSMasq with a custom .dev resolver, nginx, gcc, NVM, rbenv, automatic detection for Full Disk Encryption, several NodeJS versions, and several Ruby versions. For a lot of folks, that's a pretty good starting place for writing some code. We also provide some <a href="https://github.com/boxen/our-boxen/tree/master/modules/projects">helpful wrappers</a> for making configuring projects super simple.</p>
+
+          <h3>Does it support other stuff?</h3>
+          <p>Totally! We have about a bajillion (est.) Puppet "modules" (self-contained libraries) optimized for use with Boxen available <a href="https://github.com/boxen">under the @boxen org</a>.</p>
+
+          <h3>But I don't know Puppet!</h3>
+          <p>That's okay. We've provided a bunch of <a href="https://github.com/boxen/our-boxen/tree/master/docs">helpful docs</a> to get started, aimed at beginners.</p>
+
+          <h3>What about Linux, or Windows?</h3>
+          <p>Right now, it's OSX (Mountain Lion or above) only. We develop primarily on OSX, so that's our primary target. That said, Puppet is really good at supporting multiple platforms, so it's literally "just code" that needs to be written. We'll always review contributions, so if you want Boxen to run on your distribution, send us some Pull Requests!</p>
+
+          <h3>Do you have plans for &hellip;?</h3>
+          <p>Maybe? Let's get some discussion started! Drop some issues or Pull Requests on us.</p>
         </div>
         <div class="right">
           <div class="screenshot terminal"></div>
@@ -49,10 +61,10 @@
       </div> <!-- End of Container Div -->
     </div> <!-- End of Bottom Div -->
   </div> <!-- End of Wrapper Div -->
-  
+
   <div id="footer">
     <div class="container">
-      <span class="invertocat"></span>    
+      <span class="invertocat"></span>
       <footer>
         <div class="upper">
           <div class="site">
@@ -116,4 +128,4 @@
   </script>
 
 </body>
-</html> 
+</html>
