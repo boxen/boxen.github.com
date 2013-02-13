@@ -32,20 +32,21 @@
     <div id="bottom" class="clearfix">
       <div class="container">
         <div class="left">
-          <h3>But really, what <i>is</i> this &quot;Boxen&quot; thing?</h3>
-          <p>Boxen is a framework and standard library for literally automating your very existence. Or your laptop. They're basically the same thing. We originally build it as this thing called &quot;The Setup&quot; for our folks here at GitHub. Then we thought to ourselves &quot;Holy smokes, Batman &mdash; Other people would love to have this!&quot; Okay, fine. It wasn't our idea. You heard about what we were doing and said &quot;Sign me up!&quot; Why? Because you hate the idea of artisanal development setups as much as we do.</p>
+          <h3>What <em>is</em> &quot;Boxen?&quot;</h3>
+          <p><strong>Boxen is your company's IT robot.</strong> It's a dangerously opinionated framework that automates every piece of your team's development environment.</p>
 
-          <h3>What does it really do though?</h3>
-          <p>Boxen automates anything and everything you tell it. Too broad? Okay. For anyone using Boxen to automate their personal setup or their organization's setup, you can use the tooling we've created to offer a one-line script to your folks they then run and in about 15 minutes they get everything they need. Sounds a little too good to be true? Nah. It's just a little sprinkling of <strong>configuration management</strong> (with Puppet) and some Ruby scripts.</p>
+          <h3>No seriously, what is it?</h3>
+          <p>GitHub, Inc. wrote the first version of Boxen (called &quot;The Setup&quot;) to let employees get things done on day one, without any fuss. It's configuration management for <em>everyone</em>; even our HR department uses it. Boxen embodies the philosophy that &quot;development is production.&quot; It values consistency, predictability, and reprocability over grass-fed, free-range, artisanal development environments.</p>
 
-          <h3>What sort of stuff does it come with?</h3>
-          <p>Our &quot;default stack&quot; comes pre-assembled for you in the <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a> repo. That comes with: Homebrew, Git, Hub, DNSMasq with a custom .dev resolver, nginx, gcc, NVM, rbenv, automatic detection for Full Disk Encryption, several NodeJS versions, and several Ruby versions. For a lot of folks, that's a pretty good starting place for writing some code. We also provide some <a href="https://github.com/boxen/our-boxen/tree/master/modules/projects">helpful wrappers</a> for making configuring projects super simple.</p>
+          <p>Boxen is designed from the ground up to be more modular to be easily usable by any company, working on anything at all: not just GitHub. More importantly, Boxen places a priority on standardization of the ecosystem &mdash; something that configuration management has been lacking. Any Puppet module designed properly with Boxen in mind will be pluggable into your particular configuration, no matter what.</p>
 
-          <h3>Does it support other stuff?</h3>
-          <p>Totally! We have about a bajillion (est.) Puppet "modules" (self-contained libraries) optimized for use with Boxen available <a href="https://github.com/boxen">under the @boxen org</a>.</p>
+          <h3>What can it do?</h3>
+          <p>Boxen can clone your projects, install your toolchains, apply security policies, configure your favorite music player, set your favorite screensaver, and make your life a whole lot easier. We've built a &quot;default stack&quot; targeted at web developers in the <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a> repo. The template demonstrates just a few things possible like forcing your employees to be secure by default with Full Disk Encryption or installing packages from Homebrew. The template also comes with a handful of Ruby versions, some Node versions, nginx, and a custom .dev DNS resolver.<p>
 
-          <h3>But I don't know Puppet!</h3>
-          <p>That's okay. We've provided a bunch of <a href="https://github.com/boxen/our-boxen/tree/master/docs">helpful docs</a> to get started, aimed at beginners.</p>
+          <p>We've already written <a href="https://github.com/boxen">roughly a bajillion libraries</a> for use with Boxen that cover everything from configuring elasticsearch to installing Minecraft. Be sure to customize your company's Boxen environment as well. Anything not managed by Boxen &mdash; whether it's the dependencies for your application or your video games &mdash; is a bug.</p>
+
+          <h3>How do I write my own libraries?</h3>
+          <p>All the magic in Boxen is done with Puppet. New to Puppet? Never fear &mdash; we've <a href="https://github.com/boxen/our-boxen/tree/master/docs">written up documentation</a> aimed at beginners and experts alike.</p>
 
           <h3>What about Linux, or Windows?</h3>
           <p>Right now, it's OSX (Mountain Lion or above) only. We develop primarily on OSX, so that's our primary target. That said, Puppet is really good at supporting multiple platforms, so it's literally "just code" that needs to be written. We'll always review contributions, so if you want Boxen to run on your distribution, send us some Pull Requests!</p>
