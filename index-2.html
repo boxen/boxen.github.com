@@ -47,7 +47,11 @@
           consistency, predictability, and reproducibility over
           artisanal, hand-tweaked development environments.</p>
 
-          <p>Boxen is designed from the ground up to be more modular to be easily usable by any company, working on anything at all: not just GitHub. More importantly, Boxen places a priority on standardization of the ecosystem &mdash; something that configuration management has been lacking. Any Puppet module designed properly with Boxen in mind will be pluggable into your particular configuration, no matter what.</p>
+          <p>We ditched The Setup and rewrote Boxen to be easily
+          usable by any company, not just GitHub. We've extracted most
+          Boxen features into modules that can be easily mixed and
+          matched to create your perfect environment, and custom
+          behavior is just a module away.</p>
 
           <h3>What can it do?</h3>
           <p>Boxen can clone your projects, install your toolchains, apply security policies, configure your favorite music player, set your favorite screensaver, and make your life a whole lot easier. We've built a &quot;default stack&quot; targeted at web developers in the <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a> repo. The template demonstrates just a few things possible like forcing your employees to be secure by default with Full Disk Encryption or installing packages from Homebrew. The template also comes with a handful of Ruby versions, some Node versions, nginx, and a custom .dev DNS resolver.<p>
