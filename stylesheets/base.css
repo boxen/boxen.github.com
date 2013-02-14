@@ -198,10 +198,17 @@ a.download {
     background-image: url("../images/terminal.png");
     background-position: center center;
     background-size: 402px auto; }
+  #bottom .boxen-web {
+    background-image: url("../images/boxen-web.png");
+    background-position: center center;
+    background-size: 510px auto;
+    background-color: #E9E9E9; }
   #bottom p {
     font-size: 14px;
     margin: 0 0 20px 0;
     width: 945px; }
+  #bottom .right {
+    margin-top: -10px; }
   #bottom .left p {
     width: 500px; }
   #bottom a:hover {

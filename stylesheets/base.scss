@@ -256,10 +256,20 @@ a.download {
     background-size: 402px auto;
   }
 
+  .boxen-web {
+    background-image: url('../images/boxen-web.png'); 
+    background-position: center center;
+    background-size: 510px auto;
+    background-color: #E9E9E9;  
+  }
+
   p {
     font-size: 14px;
     margin: 0 0 20px 0;
     width: 945px;
+  }
+  .right {
+    margin-top: -10px;
   }
 
   .left p {
