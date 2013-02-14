@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="stylesheets/base.css" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="stylesheets/font-face.css" type="text/css" media="screen" charset="utf-8">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=1100">
   <meta charset="UTF-8">
   <title>BOXEN</title>
 </head>
@@ -31,74 +31,73 @@
 
     <div id="bottom" class="clearfix">
       <div class="container">
-        <div class="left">
-          <h3>What is Boxen?</h3>
-          <p><strong>Boxen is your team's IT robot.</strong> It's a
-          dangerously opinionated framework that automates every piece
-          of your development environment.</p>
+        <h3>What is Boxen?</h3>
+        <p>Boxen is <strong>your team's IT robot.</strong> It's a
+        dangerously opinionated framework that automates every piece
+        of your development environment. GitHub, Inc. wrote the first version of Boxen
+        (imaginatively called &ldquo;The Setup&rdquo;) to help
+        employees start shipping on day one. It's configuration
+        management for <em>everyone</em>: Designers, HR mavens,
+        legal eagles, and developers. We believe
+        that <strong>development is production</strong>, so we value
+        consistency, predictability, and reproducibility over
+        artisanal, hand-tweaked development environments.</p>
+        <div class="clearfix">
+          <div class="left">      
+            <p>We ditched The Setup and wrote Boxen so it's easily
+            usable by <em>any</em> company, not just GitHub. We've
+            extracted most Boxen features into modules that can be mixed
+            and matched to create your perfect environment, and custom
+            behavior is always just a module away.</p>
 
-          <h3>No seriously, what is it?</h3>
-          <p>GitHub, Inc. wrote the first version of Boxen
-          (imaginatively called &ldquo;The Setup&rdquo;) to help
-          employees start shipping on day one. It's configuration
-          management for <em>everyone</em>: Designers, HR mavens,
-          legal eagles, and developers. We believe
-          that <strong>development is production</strong>, so we value
-          consistency, predictability, and reproducibility over
-          artisanal, hand-tweaked development environments.</p>
+            <h3>What can it do?</h3>
+            <p>Boxen can clone your projects, install your toolchains,
+            apply security policies, configure your favorite music
+            player, set your screensaver, clone your dotfiles, and
+            scream for help when things go haywire. The example
+            repository at <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a>
+            shows how to require Full Disk Encryption, install packages
+            from Homebrew, ensure the presence of some default Ruby and
+            node.js versions, run nginx, and resolve custom requests to
+            a local <code>.dev</code> domain.</p>
 
-          <p>We ditched The Setup and wrote Boxen so it's easily
-          usable by <em>any</em> company, not just GitHub. We've
-          extracted most Boxen features into modules that can be mixed
-          and matched to create your perfect environment, and custom
-          behavior is always just a module away.</p>
+            <p>We've written <a href="https://github.com/boxen">roughly
+            a bajillion libraries</a> for Boxen, covering everything
+            from configuring elasticsearch to disabling
+            &ldquo;natural&rdquo; scrolling to installing Minecraft. You
+            can customize and extend your team's Boxen environment as
+            well: If you have to install something manually, it's a
+            bug.</p>
 
-          <h3>What can it do?</h3>
-          <p>Boxen can clone your projects, install your toolchains,
-          apply security policies, configure your favorite music
-          player, set your screensaver, clone your dotfiles, and
-          scream for help when things go haywire. The example
-          repository at <a href="http://github.com/boxen/our-boxen">boxen/our-boxen</a>
-          shows how to require Full Disk Encryption, install packages
-          from Homebrew, ensure the presence of some default Ruby and
-          node.js versions, run nginx, and resolve custom requests to
-          a local <code>.dev</code> domain.</p>
+            <h3>How do I customize this thing?</h3>
+            <p>Boxen's secret sauce
+            is <a href="https://puppetlabs.com/">Puppet</a>. New to
+            Puppet? Never fear!
+            We've <a href="https://github.com/boxen/our-boxen/tree/master/docs">written
+            docs</a> aimed at beginners and experts alike. Boxen also
+            makes it easy for you
+            to <a href="https://github.com/boxen/our-boxen/blob/master/docs/personal-configuration.md">customize
+            your own box</a> in reproducible, shareable ways. Boxen is
+            released under
+            the <a href="http://opensource.org/licenses/MIT">MIT
+            license</a>, so go crazy.</p>
 
-          <p>We've written <a href="https://github.com/boxen">roughly
-          a bajillion libraries</a> for Boxen, covering everything
-          from configuring elasticsearch to disabling
-          &ldquo;natural&rdquo; scrolling to installing Minecraft. You
-          can customize and extend your team's Boxen environment as
-          well: If you have to install something manually, it's a
-          bug.</p>
-
-          <h3>How do I customize this thing?</h3>
-          <p>Boxen's secret sauce
-          is <a href="https://puppetlabs.com/">Puppet</a>. New to
-          Puppet? Never fear!
-          We've <a href="https://github.com/boxen/our-boxen/tree/master/docs">written
-          docs</a> aimed at beginners and experts alike. Boxen also
-          makes it easy for you
-          to <a href="https://github.com/boxen/our-boxen/blob/master/docs/personal-configuration.md">customize
-          your own box</a> in reproducible, shareable ways. Boxen is
-          released under
-          the <a href="http://opensource.org/licenses/MIT">MIT
-          license</a>, so go crazy.</p>
-
-          <h3>What about Linux, or Windows?</h3>
-          <p>Boxen only works on Mac OS X (Mountain Lion or above),
-          because that's what we hack on every day. Puppet is really
-          good at supporting multiple platforms, though, so send us
-          some pull requests!</p>
-
+            <h3>What about Linux, or Windows?</h3>
+            <p>Boxen only works on Mac OS X (Mountain Lion or above),
+            because that's what we hack on every day. Puppet is really
+            good at supporting multiple platforms, though, so send us
+            some pull requests!</p>
+          </div>
+          <div class="right">
+            <div class="screenshot terminal"></div>
+            <br>
+            <div class="screenshot"></div>
+          </div>
+        </div>
+        <div class="clearfix">
           <h3>Do you have plans for &hellip;?</h3>
           <p>Maybe! Drop an issue or PR on us and let's get the
-          discussion started.</p>
-        </div>
-        <div class="right">
-          <div class="screenshot terminal"></div>
-          <br>
-          <div class="screenshot"></div>
+            discussion started.</p>
         </div>
       </div> <!-- End of Container Div -->
     </div> <!-- End of Bottom Div -->
@@ -106,52 +105,7 @@
 
   <div id="footer">
     <div class="container">
-      <span class="invertocat"></span>
-      <footer>
-        <div class="upper">
-          <div class="site">
-            <ul class="footer_nav">
-              <h4>GitHub</h4>
-              <li><a href="https://github.com/about">About</a></li>
-              <li><a href="https://github.com/blog">Blog</a></li>
-              <li><a href="https://github.com/features">Features</a></li>
-              <li><a href="https://github.com/contact">Contact &amp; Support</a></li>
-              <li><a href="https://github.com/training">Training</a></li>
-              <li><a href="http://status.github.com/">Site Status</a></li>
-            </ul>
-            <ul class="footer_nav">
-              <h4>Tools</h4>
-              <li><a href="http://mac.github.com/">GitHub for Mac</a></li>
-              <li><a href="http://mobile.github.com/">Issues for iPhone</a></li>
-              <li><a href="https://gist.github.com">Gist: Code Snippets</a></li>
-              <li><a href="http://fi.github.com/">Enterprise Install</a></li>
-              <li><a href="http://jobs.github.com/">Job Board</a></li>
-            </ul>
-            <ul class="footer_nav">
-              <h4>Extras</h4>
-              <li><a href="http://shop.github.com/">GitHub Shop</a></li>
-              <li><a href="http://octodex.github.com/">The Octodex</a></li>
-            </ul>
-            <ul class="footer_nav none">
-              <h4>Documentation</h4>
-              <li><a href="http://help.github.com/">GitHub Help</a></li>
-              <li><a href="http://developer.github.com/">Developer API</a></li>
-              <li><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></li>
-              <li><a href="http://pages.github.com/">GitHub Pages</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="lower">
-          <div class="site">
-            <ul>
-              <li><a href="https://github.com/site/terms">Terms of Service</a></li>
-              <li><a href="https://github.com/site/privacy">Privacy</a></li>
-              <li><a href="https://github.com/security">Security</a></li>
-            </ul>
-            <p>© 2013 <span id="_rrt" title="0.86480s from fe6.rs.github.com">GitHub</span> Inc. All rights reserved.</p>
-          </div><!-- /#legal or /#legal_ie-->
-        </div><!-- /.site -->
-      </footer>
+      
     </div>
   </div> <!-- End of Footer ID -->
 
