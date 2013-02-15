@@ -305,6 +305,7 @@ a.download {
     background-size: 18px 18px;
     margin-bottom: -3px;
   }
+
   .container {
     padding: 40px 0 30px 0;
     background-image: url('../images/invertocat.png');
@@ -312,6 +313,24 @@ a.download {
     background-position: right center;
     background-size: 34px auto;
   }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  #bottom {
+    .left p {
+      width: 945px;
+    }
+
+    .right {
+      float: none;
+      padding-bottom: 20px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+
 }
 
 /* Float class selectors and clearfix */

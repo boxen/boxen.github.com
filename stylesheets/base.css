@@ -240,6 +240,14 @@ a.download {
     background-position: right center;
     background-size: 34px auto; }
 
+@media screen and (max-width: 480px) {
+  #bottom .left p {
+    width: 945px; }
+  #bottom .right {
+    float: none;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 100%; } }
 /* Float class selectors and clearfix */
 .right {
   float: right; }
