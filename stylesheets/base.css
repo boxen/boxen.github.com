@@ -250,14 +250,6 @@ a.download {
     background-size: 29px auto;
     -webkit-mask-image: -webkit-linear-gradient(rgba(130, 114, 101, 0.3), rgba(130, 114, 101, 0.28)); }
 
-@media screen and (max-width: 480px) {
-  #bottom .left p {
-    width: 945px; }
-  #bottom .right {
-    float: none;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    width: 100%; } }
 /* Float class selectors and clearfix */
 .right {
   float: right; }
@@ -276,3 +268,14 @@ a.download {
 
 .clearfix:after {
   clear: both; }
+
+@media screen and (max-width: 480px) {
+  #bottom .left p {
+    width: 945px; }
+  #bottom .right {
+    float: none;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 100%; }
+  #bottom .left {
+    float: none; } }

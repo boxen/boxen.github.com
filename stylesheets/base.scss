@@ -332,24 +332,6 @@ a.download {
   }
 }
 
-
-@media screen and (max-width: 480px) {
-
-  #bottom {
-    .left p {
-      width: 945px;
-    }
-
-    .right {
-      float: none;
-      padding-bottom: 20px;
-      margin: 0 auto;
-      width: 100%;
-    }
-  }
-
-}
-
 /* Float class selectors and clearfix */
 
 .right {
@@ -375,6 +357,27 @@ a.download {
   clear: both;
 }
 
+
+@media screen and (max-width: 480px) {
+
+  #bottom {
+    .left p {
+      width: 945px;
+    }
+
+    .right {
+      float: none;
+      padding-bottom: 20px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .left {
+      float: none;
+    }
+  }
+
+}
 
 
 
