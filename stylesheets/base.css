@@ -229,21 +229,25 @@ a.download {
   color: #2A2A2F;
   text-align: right; }
   #footer p {
-    margin-right: 60px; }
-  #footer .heart {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url("../images/heart.png");
-    background-position: right center;
-    background-size: 18px 18px;
-    margin-bottom: -3px; }
+    font-family: 'ProximaNovaBold';
+    padding: 0;
+    font-size: 18px;
+    color: #7d6d60;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.11); }
   #footer .container {
-    padding: 40px 0 30px 0;
+    padding: 5px 0 0 0; }
+  #footer .invertocat {
+    margin: -6px 0 0 10px;
+    padding: 0;
+    display: block;
+    float: right;
+    height: 33px;
+    width: 33px;
     background-image: url("../images/invertocat.png");
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 34px auto; }
+    background-size: 30px auto;
+    -webkit-mask-image: -webkit-linear-gradient(rgba(130, 114, 101, 0.4), rgba(130, 114, 101, 0.28)); }
 
 @media screen and (max-width: 480px) {
   #bottom .left p {
