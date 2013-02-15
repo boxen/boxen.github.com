@@ -295,17 +295,21 @@ a.download {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.13), 
                     0 -1px 2px rgba(255,255,255,.12);
   font-family: 'ProximaNovaBold';
-  text-transform: uppercase;
+
   font-size: 15px;
   color: #2A2A2F;
   text-align: right;
 
-  p {
+  p, p a {
     font-family: 'ProximaNovaBold';
     padding: 0;
     font-size: 18px;
-    color: darken(rgba(147,129,114,1),8%);
-    text-shadow: 0 1px 2px rgba(255,255,255,.11);
+    color: darken(rgba(147,129,114,1),10%);
+    text-shadow: 0 1px 2px rgba(255,255,255,.14);
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   .container {
@@ -313,17 +317,17 @@ a.download {
   }
 
   .invertocat {
-    margin: -6px 0 0 10px;
+    margin: -5px 0 0 8px;
     padding: 0;
     display: block;
     float: right;
-    height: 33px;
-    width: 33px;
+    height: 29px;
+    width: 29px;
     background-image: url('../images/invertocat.png');
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 30px auto;
-    -webkit-mask-image: -webkit-linear-gradient(rgba(130,114,101,.4), rgba(130,114,101,.28));
+    background-size: 29px auto;
+    -webkit-mask-image: -webkit-linear-gradient(rgba(130,114,101,.3), rgba(130,114,101,.28));
 
   }
 }
