@@ -5,6 +5,6 @@ The official home of the Boxen project.  To run the site locally:
 
 ```bash
 bundle install
-sass --watch stylesheets
+bundle exec sass --watch stylesheets
 open index.html
 ```
