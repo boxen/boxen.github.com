@@ -1,6 +1,5 @@
 GEM
-  remote: http://rubygems.org/
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     sass (3.2.5)
 
