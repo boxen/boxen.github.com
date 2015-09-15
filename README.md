@@ -1,1 +1,1 @@
-Moved to https://github.com/boxen/our-boxen/.
+Moved to https://github.com/boxen/our-boxen/#our-boxen.
